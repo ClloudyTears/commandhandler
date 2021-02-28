@@ -38,7 +38,7 @@ client.on('message', async message => {
   if(command) {
     command.run(client, message, args)
   } else {
-    message.repl(`No commands found!`)
+    message.reply(`No commands found!`)
   }
 })
 
